@@ -1,0 +1,35 @@
+{% include header.html %}
+  <body class="single">
+    <div id="screen">
+        {% include header_nav.html %}
+         <section class="G4 GR GS" id="content">            
+            <article>
+               <header>
+                  <h1>{{ page.title }}</h1>
+                  <h2><time datetime="{{ page.date }}" pubdate="pubdate">{{ page.date | date: '%B %d, %Y' }}</time></h2>
+                  <nav>
+                    <ul>
+                      {% if page.previous.url %} 
+                        <li><a href="{{page.previous.url}}" title="&laquo; Previous;">&laquo; Previous;</a></li>
+                      {% endif %}
+                    
+                      {% if page.next.url %} 
+                        <li><a href="{{page.next.url}}" title="Next &raquo;">Next &raquo;</a></li>
+                      {% endif %}                   
+                    </ul>
+                    <ul>
+                      <li>
+                        {% include readability.html %}
+                      </li>
+                    </ul>
+                  </nav>
+               </header>
+               <div class="formatted">
+                  {{ page.content }}
+               </div><!-- .formatted -->
+            </article>
+
+        {% include disqus.html %}       
+        </section><!-- #content.G4.GR.GS -->
+        <hr class="implied" />
+        {% include footer.html %}

@@ -1,0 +1,28 @@
+{% include header.html %}
+
+<body class="index">
+	<div id="screen">
+		{% include header_nav.html %}
+		<div class="formatted">
+			<section class="G6 GS">
+			      <h1 class="implied"></h1>			                
+			                <section class="G2 GS"></section><!-- .ia.ia-2.ia-s -->
+			                
+			                <section class="G4 GR" id="content">
+			                <!--<section class="G4">-->
+			                    <h1 class="HSC">Archives</h1>
+			                    <dl class="containsArticles">									
+			                        {% for post in site.posts %}									 			    					
+			    					<dt>
+			    					    <hgroup>			    					        
+			    					        <time class="date" datetime="{{ post.date | date_to_string }}" pubdate="pubdate">{{ post.date | date: '%B %d, %Y' }}</time>
+			    					    </hgroup>  
+			    					</dt>
+			                        <dd>
+										<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+			                        </dd>
+								{% endfor %}
+			                    </dl><!-- .containsArticles -->			                    
+			                </section><!-- G4 GR -->			               
+			            </div><!-- #content -->
+{% include footer.html %}

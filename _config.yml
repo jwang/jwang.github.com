@@ -1,0 +1,8 @@
+pygments: true
+markdown: rdiscount
+title: "John Wang"
+author: "John Wang"
+description: "Personal homepage of John Wang."
+keywords: - ios cocoa objective-c android iphone ipad ruby on rails jruby
+exclude: [.git, .gitignore, CNAME, changelog.mdown, README.markdown, LICENSE]
+permalink: pretty
