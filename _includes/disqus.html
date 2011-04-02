@@ -2,9 +2,10 @@
 <script type="text/javascript">
     var disqus_shortname = 'jtwang';
 
-    var disqus_identifier = http://johntwang.com{{ page.id }};
-    var disqus_url = http://johntwang.com{{ page.url }};
-
+    var disqus_identifier = 'http://johntwang.com{{ page.id }}';
+    var disqus_url = 'http://johntwang.com{{ page.url }}';
+	var disqus_title = '{{ page.title | replace:"'","\\'" }}';
+	
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = 'http://jtwang.disqus.com/embed.js';
