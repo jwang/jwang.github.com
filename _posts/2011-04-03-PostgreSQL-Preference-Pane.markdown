@@ -12,7 +12,7 @@ For [PostgreSQL](http://www.postgresql.org), we install using [HomeBrew](http://
 
 I also looked around on the PostgreSQL download section and couldn't find anything.  A couple of Google searches yielded some outdated information, but a very interesting framework for Cocoa called [postgres-kit](http://code.google.com/p/postgres-kit/).  I want to look a bit more into it at a later point, but I also needed something that was bit more quick and easy for the interns.
 
-The Terminal could be a bit more user friendly for Designers. Wise Heart Design has a [intro guide to the Terminal for Designers.](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/).  It's worth a read if you're not familiar with the terminal and shell commands.
+The Terminal could be a bit more user friendly for Designers. Wise Heart Design has a [intro guide to the Terminal for Designers](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/).  It's worth a read if you're not familiar with the terminal and shell commands.
 
 It's also been a pain point for learning as, there's long commands to learn, or we need to teach them how to create _aliases_ in the bash/zsh shell.  Something we want to avoid and get through quickly, so we can get the designers access to the CSS and view layers of the app for them to style.
 
