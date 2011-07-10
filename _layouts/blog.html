@@ -1,32 +1,32 @@
 {% include header.html %}
 
 <body class="index">
-	<div id="screen">
-		{% include header_nav.html %}
-		<div class="formatted">
-			<section class="G6 GS">
-			      <h1 class="implied">Featured Article</h1>			                
-			                <section class="G2 GS">			                    
-			                </section><!-- .ia.ia-2.ia-s -->
-			                
-			                <section class="G4 GR" id="content">
-			                <!--<section class="G4">-->
-			                    <h1 class="HSC">Latest Articles</h1>
-			                    <dl class="containsArticles">									
-			                        {% for post in site.posts limit:5 %}									 			    					
-			    					<dt>
-			    					    <hgroup>
-			    					        <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-			    					        <time class="date" datetime="{{ post.date | date_to_string }}" pubdate="pubdate">{{ post.date | date: '%B %d, %Y' }}</time>
-			    					    </hgroup>  
-			    					</dt>
-			                        <dd>
-										{{ post.content | truncatewords: 55}} <a href="{{post.url}}" class="more-link">Read more.</a>			                            
-			                        </dd>
-								{% endfor %}
-			                    </dl><!-- .containsArticles -->
-			                    <p><a href="{{ site.url }}/archives/">All Articles</a></p>
-			                </section><!-- G4 GR -->
-			               
-			            </div><!-- #content -->
+  <div id="screen">
+    {% include header_nav.html %}
+    <div class="formatted">
+      <section class="G6 GS">
+            <h1 class="implied">Featured Article</h1>
+                      <section class="G2 GS">
+                      </section><!-- .ia.ia-2.ia-s -->
+
+                      <section class="G4 GR" id="content">
+                      <!--<section class="G4">-->
+                          <h1 class="HSC">Latest Articles</h1>
+                          <dl class="containsArticles">
+                              {% for post in site.posts limit:5 %}
+                    <dt>
+                        <hgroup>
+                            <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+                            <time class="date" datetime="{{ post.date | date_to_string }}" pubdate="pubdate">{{ post.date | date: '%B %d, %Y' }}</time>
+                        </hgroup>
+                    </dt>
+                              <dd>
+                    {{ post.content | truncatewords: 55}} <a href="{{post.url}}" class="more-link">Read more.</a>
+                              </dd>
+                {% endfor %}
+                          </dl><!-- .containsArticles -->
+                          <p><a href="{{ site.url }}/archives/">All Articles</a></p>
+                      </section><!-- G4 GR -->
+
+                  </div><!-- #content -->
 {% include footer.html %}
