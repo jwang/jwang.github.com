@@ -1,6 +1,6 @@
 ---
 layout: default
-title: John T Wang
+title: Home
 ---
 
 <h3>Welcome</h3>
