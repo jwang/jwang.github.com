@@ -9,7 +9,7 @@ A while back, I wrote a [small tutorial on how to use Google's GData Client libr
 
 It looks just amazing.
 
-`
+{% highlight %}
 #import "GTLBooks.h"
 
 GTLServiceBooks *service = [[GTLServiceBooks alloc] init];
@@ -29,7 +29,7 @@ query.filter = kGTLBooksFilterFreeEbooks;
         }
       }
     }];
-`
+{% endhighlight %}
 
 And it also follows the [Google Objective-C Style Guide](http://google-styleguide.googlecode.com/svn/trunk/objcguide.xml) which I'm also a fan of.
 
