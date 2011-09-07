@@ -12,7 +12,7 @@ Sometimes, it seems that Factory Girl can get in the way of running `rake db:mig
 The problem was that Factory Girl attempts to create factories for models that did not have database tables created yet. It was trying to run before the database migrations ran when the server tried running the `rake db:migrate`. (Note, yes, we always prepend `bundle exec`, but shortened it here for context.)
 
 #### The Solution
-It seems that you're not to load the `factory\_girl_rails` gem in your Gemfile in the `:development` group at all. The configuration on [the GitHub repo](https://github.com/thoughtbot/factory_girl_rails) just says to add it to your Gemfile, but instead you should add it to your `:test` group only. For example:
+It seems that you're not to load the `factory_girl_rails` gem in your Gemfile in the `:development` group at all. The configuration on [the GitHub repo](https://github.com/thoughtbot/factory_girl_rails) just says to add it to your Gemfile, but instead you should add it to your `:test` group only. For example:
 `gem 'factory_girl_rails', :group => :test`
 
 More details can be found on [the mailing list topic](https://groups.google.com/d/topic/factory_girl/0RtdwiUIm5I/discussion).
