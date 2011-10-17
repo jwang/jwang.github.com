@@ -9,12 +9,9 @@ title: Home
 
 <h3>Currently</h3>
 <p>When I'm not busy helping out open source projects on GitHub, I enjoy writing code with Ruby on Rails, Google Go, and MacRuby.</p>
-<p>I am also teaching a course on <a href="http://codelesson.com/courses/view/programming-android">CodeLesson.com on Android mobile development.</a></p>
-<p>And will be teaching an <a href="http://www.outreach.hawaii.edu/pnm/programs/2011/EVENT-L11700.asp">Introductory</a> and <a href="http://www.outreach.hawaii.edu/pnm/programs/2011/EVENT-L11701.asp">Intermediate iOS Programming</a> courses at Pacific New Media soon.</p>
-<p>I am also working on organizing Hawaii's Ruby community, <a href="http://aloharb.org">Aloha.rb</a> and the <a href="http://honolulu-gtug.org">Honolulu Google Technology Users Group</a>.
+<p>Organizing <a href="http://aloharubyconf.com">Aloha Ruby Conf 2012</a>.</p>
+<p>And teaching an <a href="http://www.outreach.hawaii.edu/pnm/programs/2011/EVENT-L11700.asp">Introductory</a> and <a href="http://www.outreach.hawaii.edu/pnm/programs/2011/EVENT-L11701.asp">Intermediate iOS Programming</a> courses at Pacific New Media soon.</p>
+<p>I am also organizing Hawaii's Ruby community, <a href="http://aloharb.org">Aloha.rb</a> and the <a href="http://honolulu-gtug.org">Honolulu Google Technology Users Group</a>.
 
 <h3>Recently</h3>
-
-<p>Helped add an OAuth wrapper for the <a href="http://code.google.com/p/appengine-jruby/">JRuby on Google AppEngine project</a>.</p>
-<p>Helped getting RESTful JSON working with <a href="http://code.google.com/p/appengine-jruby/">JRuby on Google AppEngine project</a>.</p>
-<p>Spoke about iPhone and Android app development at <a href="http://www.unconferenz.com">Unconferenz 2010</a>, iPhone/Android Developers Group and <a href="http://www.techhui.com/page/techhui-conference-2010-1">TechHui Conference 2010</a>.</p>
+<p>Taught a course on <a href="http://codelesson.com/courses/view/programming-android">CodeLesson.com on Android mobile development.</a></p>
