@@ -9,9 +9,9 @@ title: Home
 
 <h3>Currently</h3>
 <p>When I'm not busy helping out open source projects on GitHub, I enjoy writing code with Ruby on Rails, Google Go, and MacRuby.</p>
-<p>Organizing <a href="http://aloharubyconf.com">Aloha Ruby Conf 2012</a>.</p>
-<p>And teaching an <a href="http://www.outreach.hawaii.edu/pnm/programs/2011/EVENT-L11700.asp">Introductory</a> and <a href="http://www.outreach.hawaii.edu/pnm/programs/2011/EVENT-L11701.asp">Intermediate iOS Programming</a> courses at Pacific New Media soon.</p>
-<p>I am also organizing Hawaii's Ruby community, <a href="http://aloharb.org">Aloha.rb</a> and the <a href="http://honolulu-gtug.org">Honolulu Google Technology Users Group</a>.
+<p>Organizing <a href="http://aloharubyconf.com">Aloha Ruby Conference 2012</a>.</p>
+<p>I am also one of the organizers of Hawaii's Ruby community, <a href="http://aloharb.org">Aloha.rb</a> and the <a href="http://honolulu-gtug.org">Honolulu Google Technology Users Group</a>.
 
 <h3>Recently</h3>
+<p>Taught an <a href="http://www.outreach.hawaii.edu/pnm/programs/2011/EVENT-L11700.asp">Introductory</a> and <a href="http://www.outreach.hawaii.edu/pnm/programs/2011/EVENT-L11701.asp">Intermediate iOS Programming</a> courses at Pacific New Media.</p>
 <p>Taught a course on <a href="http://codelesson.com/courses/view/programming-android">CodeLesson.com on Android mobile development.</a></p>
