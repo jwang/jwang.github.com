@@ -7,7 +7,7 @@
   Site: http://johntwang.com
   Twitter: johntwang
   GitHub: https://github.com/jwang
-  Location: Honolulu, HI
+  Location: Cupertino, CA
 
 /* THANKS */
   Names (& URL):
